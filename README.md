@@ -19,7 +19,7 @@ To send Http (GET) request, you can use Postman or Curl command.
     - http://localhost:8080/expressionparser/expression  
         - http - protocol
         - localhost - host name
-        - 8080 - port number use
+        - 8080 - port number
         - expressionparser - project name 
         - expression - resource
     - you need to send expression in request body
