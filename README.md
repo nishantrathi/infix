@@ -3,7 +3,7 @@
 # What did I modify?
 1. Handled white spaces
 2. Added a method to calculate factorial
-3. How to handle calculate factorial for negative number
+3. Calculate factorial for negative number
 4. Converted this project in Spring Boot project to create rest endpoint
 
 # How to run?
