@@ -10,11 +10,11 @@
 1. Open this project in your IDE (select pom.xml from directory to open this project)
 2. Do mvn clean install to build the project
     - It requires Java 10 to build the project 
-3. Run ExpressionApplication class to start the Spring Boot project
+3. Run **ExpressionApplication** class to start the Spring Boot project
     - You should see this message **Started ExpressionApplication in __ seconds**
     
 # How to use rest endpoint?
-To send Http (GET) request, you can use Postman or Curl command.
+To send HTTP (GET) request, you can use **Postman** or **Curl** command.
 1. Rest endpoint
     - http://localhost:8080/expressionparser/expression  
         - http - protocol
