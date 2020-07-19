@@ -63,6 +63,7 @@ public class EvaluatorVisitor implements ExpressionVisitor<Double> {
         if(factorialMap.containsKey(num)){
             return factorialMap.get(num);
         }
-        return num * factorial(num-1);
+        factorialMap.put(num,  num * factorial(num-1));
+        return factorialMap.get(num);
     }
 }
